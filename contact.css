@@ -1,0 +1,234 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+  --color1:#1D2242;
+  --color2:#CBCCE8;
+  --color3:#383B5D;
+}
+
+* {
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  padding-top: 20vh;
+}
+
+/*Inicial*/
+/*sujeito a alterações e melhorias com a responsividade*/
+
+.main-header{
+top: 5%;
+position:fixed;
+display: flex;
+justify-content: right;
+width: 100%;
+}
+
+.main-header img {
+  cursor: pointer;
+}
+
+#modo{
+  height:65px;
+  background: #1D2242;
+  border-right: 4em solid #1D2242;
+  border-left: 4px solid #1D2242;
+  padding: 5px 2px;
+  border-radius: 4.2em 0 0 4em ;
+  }
+
+
+.all{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.all p {
+  padding-top: 10px;
+  font-size: 18px;
+  max-width: 600px;
+  text-align: justify;
+}
+
+.container1 {
+  padding: 25px;
+  background-color:#DB595C;
+  width: 700px;
+  height:330px;
+}
+
+.container2{ 
+  background-color:#1D2242;
+  width: 700px;
+  height:330px;
+  margin-left: 10%;
+  margin-top: 10px;
+  padding: 25px;
+}
+
+
+/*Equipe*/
+
+.equipe{
+  display:flex;
+  flex-direction:row;
+  gap:10px;
+  border: solid red;
+}
+
+.nossa-equipe{
+  font-size: 38px;
+	padding: 18% 0 5% 0;
+  color:#DB595C;
+  text-align: center;
+}
+
+.cards{  /** Container de card 1**/
+  width: 100%;
+  margin-top: 8%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:row;
+  gap:30px;	
+}
+
+.cards2{ /** Container de card 2**/
+  margin-top: 150px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+  flex-direction:row;
+  gap: 30px;
+}
+
+.card {
+  width: 300px;
+  height: 480px;
+  background-color:#1D2242;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  padding: 10px 20px 0px 20px;
+}
+
+.card .imagem{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+
+.foto {
+  border:5px solid #1D2242;
+  width: 180px;
+  border-radius: 50%;
+}
+
+.card h2 {
+	color:#fff;
+  font-size: 24px;
+}
+
+.card h3{
+	color:#DB595C;
+}
+
+.card .foto {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-top: -100px;
+ }
+
+
+.desc{ /** Paragrafo do texto **/
+  padding: 10px 0 10px 0;
+	font-size:12px;
+	color:#fff;
+  max-width: 100%;
+  min-height: 13em;
+}
+
+.btn{
+display:flex;
+align-items:center;
+justify-content:center;	
+}
+
+.btn-port{
+	border:none;
+	font-size:19px;
+  font-weight: 600;
+	background-color:#DB595C;
+  padding: 4px 92px;
+  margin: 20px 0;
+  color:#fff;
+	text-align:center;
+	transition:0.3s;
+  cursor: pointer;
+}
+
+.btn-port:hover{
+	background-color:#fff;
+	color:#DB595C;
+}
+
+.icons{
+display:flex;
+align-items:center;
+justify-content:center;	
+flex-direction:row;
+gap:30px;
+
+}
+
+.icons > img{
+border-radius:none;
+width:36px;
+height:36px;
+transition:.2s;
+cursor: pointer;
+
+}
+
+.icons > img:hover{
+	transform:scale(1.1);
+}
+/*Footer*/
+
+footer{
+color:#000;
+text-align:center;
+margin: 5% 5%;
+	
+}
+
+footer > h1{
+	color:#DB595C;
+	font-size:20px;
+	text-align:center;
+	
+}
+
+/*Responsividade*/
+@media only screen and (max-width: 940px) {
+ 
+ #modo{
+  height:60px;
+  background: #1D2242;
+  border-right: 1em solid #1D2242;
+  border-left: 4px solid #1D2242;
+  padding: 5px 2px;
+  border-radius: 4.2em 0 0 4em ;
+  }
+
+}
+
+/*Marco Marchi*/ 
