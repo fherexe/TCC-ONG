@@ -94,7 +94,7 @@ width: 100%;
 
 .nossa-equipe{
   font-size: 38px;
-	padding: 10% 0 0 0;
+	padding: 15% 0 0 0;
   color:#DB595C;
   text-align: center;
 }
@@ -200,7 +200,7 @@ gap:30px;
 
 }
 
-.icons > img{
+.icons img{
 border-radius:none;
 width:36px;
 height:36px;
@@ -209,7 +209,7 @@ cursor: pointer;
 
 }
 
-.icons > img:hover{
+.icons img:hover{
 	transform:scale(1.1);
 }
 /*Footer*/
